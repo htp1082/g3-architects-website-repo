@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.open-sans- font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* share the style */
+
+.display-flex{
+    display: flex;
+}
+
+.primary-btn{
+
+    padding: 20px 25px;
+    background-color: #FF900E;
+    font-size: 1.3rem;
+    font-weight: 600px;
+    color: white;
+    margin: 50px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+/* Share the color */
+
+.dark-2{
+     color: #424242;
+}
+
+.bg-color{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+/*--- header the stye *---/
+
+  
+
+   
+
+/* navber style */
+
+.navbar{
+      justify-content: space-between;
+}
+
+.navbar h2{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.navber-link{
+    align-items: center;
+    
+}
+
+.nav-item{
+    list-style-type: none;
+    margin-left: 35px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #424242;
+    font-size: 18px;
+}
+
+.navbar, .banner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* banner style */
+.banner{
+    text-align: center;
+    ;
+
+    margin-top: 120px;
+}
+
+.banner-content{
+    max-width: 800px;
+    margin: 0 auto
+}
+
+.banner h1{
+    font-size: 4rem;
+    font-weight: 600px;
+}
+
+.banner-img{
+    width: 100%;
+}
