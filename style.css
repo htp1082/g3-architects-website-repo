@@ -87,6 +87,7 @@
 
 .navbar{
       justify-content: space-between;
+      padding: 15px;
 }
 
 .navbar h2{
@@ -274,4 +275,55 @@ span{
     color: #727272;
     margin-bottom: 210px;
    
+}
+
+/* feature */
+.feature-container{
+    display: flex;
+}
+
+.feature-img img{
+    width: 100%;
+}
+
+.feature-card{
+    padding: 20px;
+    box-shadow: 0 4px 30px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.feature-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.feature-img{
+    margin-left: 60px;
+}
+
+.feature-titile{
+    font-size: 45px;
+    margin-bottom: 10px;
+    border-left: 10px solid #FF900E;
+    padding-left: 20px;
+}
+
+.ten-year{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.experi{
+    font-size: 16px;
+    color: white;
+}
+
+.ex-btn{
+    margin-top: -200px;
+    padding: 40px 50px;
+    margin-left: -40px;
 }
